@@ -1,0 +1,8 @@
+/*.container{display: flex;align-items: center;justify-content: center;}*/
+.card
+{
+    background: linear-gradient(rgba(238, 203, 203, 0.5),rgba(187, 170, 170, 0.5));
+    
+    
+}
+.i{border-radius: 15px !important;}

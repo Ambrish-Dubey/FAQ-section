@@ -1,0 +1,14 @@
+ERROR 1:- An error would occur named as Animation kind of error so :-
+https://stackoverflow.com/questions/45975675/lazy-loading-browsermodule-has-already-been-loaded
+
+As per Angular Documentation; note that this applies for standalone components.
+
+https://angular.io/guide/animations#step-1-enabling-the-animations-module
+
+On app.config.ts make sure to add provideAnimations() under providers
+
+import {provideAnimations} from "@angular/platform-browser/animations";
+
+export const appConfig: ApplicationConfig = {
+  providers: [provideRouter(routes), provideAnimations()]
+};

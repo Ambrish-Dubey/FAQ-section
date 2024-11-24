@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+*/
+
+body
+{
+    background: linear-gradient(rgba(87, 49, 49, 0.527),rgba(184, 166, 166, 0.527)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKU42-xMmTo4T0n_tJHAgjIYe_hNR9gN8_Hg&s');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
